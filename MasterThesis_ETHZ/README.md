@@ -2,7 +2,7 @@
 ## *Revisiting Equity Strategies with Financial Machine Learning*
 
 ## Description
-This is a Master Thesis as part of the [Msc Management, Technology and Economics](https://mtec.ethz.ch/studies.html) at ETH, Zurich, Switzerland, where I designed profitable Equity strategies with Financial Machine Learning and Data Science techniques. It has been supervised by [Prof. Dr. Didier Sornette](https://er.ethz.ch/about-us/people/sornette.html) from the [Chair of Entrepreneurial Risks](https://er.ethz.ch).
+This is a Master Thesis as part of the [Msc Management, Technology and Economics](https://mtec.ethz.ch/studies.html) at ETH, Zurich, Switzerland, where I designed profitable Equity strategies with Financial Machine Learning and Data Science techniques. It has been supervised by [Prof. Dr. Didier Sornette](https://er.ethz.ch/about-us/people/sornette.html) from the [Chair of Entrepreneurial Risks](https://er.ethz.ch), ETH, Zurich, Switzerland.
 
 Python codes and data available upon request.
 

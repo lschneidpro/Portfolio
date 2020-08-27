@@ -6,6 +6,6 @@
 This is a capstone project as part of the [IBM Data Science Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/3LML8GAMYR22).
 Optimal locations for Thai restaurants in Sydney, Australia are suggested with data science techniques.
 
-Data is scrapped or pulled directly from the following APIs and then geo-visualized using folium:
-* Google Maps API
-* Foursquare API
+Data is web-scrapped or pulled directly from the following APIs and then geo-visualized using [folium](https://python-visualization.github.io/folium/):
+* [Google Maps API](https://developers.google.com/maps/documentation)
+* [Foursquare API](https://developer.foursquare.com)

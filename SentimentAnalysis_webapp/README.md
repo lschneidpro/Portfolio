@@ -12,11 +12,12 @@ In the first project, we trained an deployed an LSTM model with AmazonSagemaker.
 
 ### Enhanced Project: DistilBERT with Dash on Heroku
 In this enhanced project, the following improvement are poposed:
-* Better web app appearance with Dash and Bootstrap
-* Computation of confidence scores displayed by a gauge
-* Model performance increase with DistilBERT (around 93% accuracy on test set)
+* Better web app appearance with Dash and Bootstrap.
+* Computation of confidence scores displayed by a gauge.
+* Model performance increase with DistilBERT (around 93% accuracy on test set).
 
-the webapp can be found at [link](https://bertsentiment-app.herokuapp.com) and looks like as follows:
+The webapp can be found at [link](https://bertsentiment-app.herokuapp.com) and looks like as follows:
+
 ![Alt text](screenshot2.jpg?raw=true "Optional Title")
 
 

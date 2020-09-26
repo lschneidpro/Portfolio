@@ -1,33 +1,28 @@
-# Plagiarism Project, Machine Learning Deployment
+# Sentiment Analysis webapp 
+[Link to Webapp](https://bertsentiment-app.herokuapp.com)
 
-This repository contains code and associated files for deploying a plagiarism detector using AWS SageMaker.
+## Description
+This is a personal web development project as part of the [Udacity Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t). The project consists of deploying a sentiment analysis model trained on the [IMDb Dataset](https://ai.stanford.edu/~amaas/data/sentiment/). 
 
-## Project Overview
+### Initial Project: LSTM with Amazon SageMaker
+In the first project, we trained an deployed an LSTM model with AmazonSagemaker. The test set accuracy is around 84% and the web app looks like as follows:
 
-In this project, you will be tasked with building a plagiarism detector that examines a text file and performs binary classification; labeling that file as either *plagiarized* or *not*, depending on how similar that text file is to a provided source text. Detecting plagiarism is an active area of research; the task is non-trivial and the differences between paraphrased answers and original work are often not so obvious.
+![Alt text](screenshot1.jpg?raw=true "Optional Title")
 
-This project will be broken down into three main notebooks:
 
-**Notebook 1: Data Exploration**
-* Load in the corpus of plagiarism text data.
-* Explore the existing data features and the data distribution.
-* This first notebook is **not** required in your final project submission.
+### Enhanced Project: DistilBERT with Dash on Heroku
+In this enhanced project, the following improvement are poposed:
+* Better web app appearance with Dash and Bootstrap.
+* Computation of confidence scores displayed by a gauge.
+* Model performance increase with DistilBERT (around 93% accuracy on test set).
 
-**Notebook 2: Feature Engineering**
+The webapp can be found at [link](https://bertsentiment-app.herokuapp.com) and looks like as follows:
 
-* Clean and pre-process the text data.
-* Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
-* Select "good" features, by analyzing the correlations between different features.
-* Create train/test `.csv` files that hold the relevant features and class labels for train/test data points.
+![Alt text](screenshot2.jpg?raw=true "Optional Title")
 
-**Notebook 3: Train and Deploy Your Model in SageMaker**
 
-* Upload your train/test feature data to S3.
-* Define a binary classification model and a training script.
-* Train your model and deploy it using SageMaker.
-* Evaluate your deployed classifier.
 
----
 
-Please see the [README](https://github.com/udacity/ML_SageMaker_Studies/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
+
+
 

@@ -4,10 +4,10 @@ import torch
 
 
 def get_probability(text):
-    """Computes sentiment analysis confidence score for text
+    """Computes sentiment analysis confidence score for a text
 
     Args:
-        string: text to be review
+        string: text to be reviewed
 
     Returns:
         array: confidence score for positive case

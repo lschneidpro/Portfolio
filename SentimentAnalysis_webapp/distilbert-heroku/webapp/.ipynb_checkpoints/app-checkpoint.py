@@ -29,9 +29,12 @@ navbar = dbc.NavbarSimple(
 
 
 app.layout = html.Div([
+    # top navbar
     navbar,
     dbc.Row([
         dbc.Col(
+            
+            # left column
                 html.Div([
                     html.A([
                         html.Img(src=app.get_asset_url("linkedinlogo.png"),
@@ -51,7 +54,10 @@ app.layout = html.Div([
                     ),
                 className="col-1 border-right"),
         
+        # middle
         dbc.Col([
+            
+            # text area
             dbc.Row([
                 dbc.Col([
                     html.Div([
@@ -65,6 +71,8 @@ app.layout = html.Div([
                     ),
                 ],
                 ),
+            
+            #nlp area
             dbc.Row([
                 dbc.Col([
                     html.Div([

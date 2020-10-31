@@ -1,4 +1,4 @@
-# Explainable Drog Breed Classifier Webapp
+# Explainable Dog Breed Classifier Webapp
 [Link to Webapp](https://xaidog-app.herokuapp.com)
 
 ## Description

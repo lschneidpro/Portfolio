@@ -86,7 +86,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                                 html.H2(
-                                                    "Explainable Drog Breed Classifier"
+                                                    "Explainable Dog Breed Classifier"
                                                 ),
                                                 html.H6(
                                                     "Breed probability from DenseNet-121 and Explanations from Grad-CAM",

@@ -17,7 +17,7 @@ This app has been tested for python 3.6 on linux.
 pip install requirements.txt
 ```
 
-### Runninf
+### Running
 
 ```
 python app.py

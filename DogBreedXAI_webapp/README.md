@@ -9,8 +9,6 @@ More information about the computer vision development can be found in the *note
 
 ## Getting Started
 
-These instructions will get you the project up and running on your local machine. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 This app has been tested for python 3.6 on linux.
@@ -40,4 +38,5 @@ Increase memory consumption after few images preprocessing causing crash on the 
 
 ## Screenshot
 The web app looks like as follows:
+
 ![Alt text](screenshot.jpg?raw=true "Optional Title")

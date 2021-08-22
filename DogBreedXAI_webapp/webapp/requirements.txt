@@ -1,7 +1,0 @@
-https://download.pytorch.org/whl/cpu/torch-1.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
-https://download.pytorch.org/whl/cpu/torchvision-0.7.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
-dash==1.14.0 
-dash-bootstrap-components==0.10.5
-dash-uploader==0.3.1
-opencv-python-headless==4.4.0.44
-matplotlib==3.3.2

@@ -19,3 +19,10 @@ The code can be run as a container as follows:
 docker build . -t app
 docker run -it app
 ```
+
+## Ideas for improvement
+- Re-organize each script to work as a class.
+- Update functions to move constants to their own constants.py file, which can then be passed to the necessary functions, rather than being created as variables within functions.
+- Work towards pylint score of 10/10.
+- Add dependencies and libraries (or dockerfile) to README.md
+- Add requirements.txt with needed dependencies and libraries for simple install.

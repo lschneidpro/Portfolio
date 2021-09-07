@@ -1,6 +1,6 @@
 # Predict Customer Churn
 
-- Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
+ **Predict Customer Churn** Project from the ML DevOps Engineer Nanodegree of Udacity
 
 ## Project Description
 This project re-implements a jupyter notebook as a pyhton package implementing best practices production code: modular, documented, tested)
